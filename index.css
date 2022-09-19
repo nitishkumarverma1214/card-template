@@ -17,6 +17,11 @@
     padding: 0px 0px;
     
 }
+html{
+    /* 1rem = 16px */
+    font-size: 62.5%;
+    /* 10/16 so 1rem= 10px */
+}
 body{
     background-color: var(--dark-blue-bg);
     font-family: 'Outfit', sans-serif;
@@ -31,46 +36,50 @@ body{
 }
 
 .card{
-    border: 2px solid var(--dark-blue-line);
-    height: 595px;
-    min-width: 350px;
+    border: 0.2rem solid var(--dark-blue-line);
+    height: 59.5rem;
+    min-width: 35.0rem;
     border-radius: 5%;
     background-color: var(--dark-blue-card-bg);
     filter: drop-shadow(0.75em 0.75em 0.5em);
-     padding: 22px;
+     padding: 2.2rem;
 }
 
+
 .container-img{
-   width: 330px;
+   width: 33rem;
 }
 .container-img img{
     width: 100%;
-    border-radius: 11px;
+    border-radius: 1.1rem;
 
    
 }
 .info{
-    width:330px;
+    width:33rem;
 }
 
 .info h3{
+    font-size: 1.8rem;
     color: var(--white);
     margin: 1.5em 0;
 }
 
 .info p{
     margin: 1.2rem 0;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: var(--text-color);
 }
 
 #eth{
     color: var(--cyan);
+    font-size: 1.3rem;
 }
 #clock{
     position: relative;
-    right: -9rem;
+    right: -17rem;
     color: var(--soft-blue);
+    font-size: 1.3rem;
 }
 
 footer hr{
@@ -84,9 +93,10 @@ footer div {
     margin-bottom: 2rem;
     color: var(--text-color);
     display: flex;
+    font-size: 1.3rem;
 }
 footer div span img{
-    height: 20px;
+    height: 2rem;
     margin-right: 1rem;
 }
 
