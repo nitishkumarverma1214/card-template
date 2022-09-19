@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-
-
 :root {
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
@@ -10,6 +8,7 @@
     --dark-blue-line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
     --shadow: hsl(219, 50%, 18%);
+    --text-color:hsl(215,32%,44%);
   }
 
 *{
@@ -24,7 +23,6 @@ body{
     
 }
 
-
 .container{
     display: flex;
     height: 100vh;
@@ -33,19 +31,14 @@ body{
 }
 
 .card{
-    /* box-shadow: 1rem; */
     border: 2px solid var(--dark-blue-line);
     height: 595px;
     min-width: 350px;
     border-radius: 5%;
     background-color: var(--dark-blue-card-bg);
-    /* box-shadow: 5px 10px var(--shadow);
-     */
     filter: drop-shadow(0.75em 0.75em 0.5em);
      padding: 22px;
 }
-
-
 
 .container-img{
    width: 330px;
@@ -68,6 +61,7 @@ body{
 .info p{
     margin: 1.2rem 0;
     font-size: 18px;
+    color: var(--text-color);
 }
 
 #eth{
@@ -86,12 +80,16 @@ footer hr{
     margin-bottom: 1rem;
 }
 
-
-footer p {
+footer div {
     margin-bottom: 2rem;
+    color: var(--text-color);
+    display: flex;
 }
-footer p span img{
+footer div span img{
     height: 20px;
     margin-right: 1rem;
 }
 
+footer div p span{
+    color: var(--white);
+}
